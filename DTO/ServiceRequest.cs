@@ -56,6 +56,8 @@ namespace DTO
             set {  rating = value; }
         }
         private DateTime updateStatusTime;
+        public DateTime RequestTime;
+
         public DateTime UpdateStatusTime
         {
             get { return updateStatusTime; }
